@@ -104,6 +104,7 @@ par(bg="transparent", mfcol=c(2,2))
                     main="")
             )
 
+## Save graph as png file
 dev.copy(png, file="plot4.png", width=480, height=480, units="px")
 dev.off()
 

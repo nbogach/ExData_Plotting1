@@ -74,7 +74,7 @@ legend("topright",
        cex=0.5                                                          ## Scale of legend
        )
 
-
+## Save graph as png file
 dev.copy(png, file="plot3.png", width=480, height=480, units="px")
 dev.off()
 

@@ -62,6 +62,7 @@ with(df, plot(Time, Global_active_power,
                                    xlab="",
                                    main=""))
 
+## Save graph as png file
 dev.copy(png, file="plot2.png", width=480, height=480, units="px")
 dev.off()
 
